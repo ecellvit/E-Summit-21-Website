@@ -24,6 +24,7 @@
 }
 .list-title {
   font-weight: 700;
+  font-size: 30px;
 }
 .list-text {
   min-height: 100px;
@@ -36,9 +37,13 @@
   background-position: center;
   text-align: center;
   border-radius: 15px;
-  margin: 30px 30px 30px 0px;
+  margin: 30px 20px 30px 20px;
 }
-.E-Talk{
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.E-Talk {
   background-image: linear-gradient(
       0deg,
       #012a4c 36.98%,
@@ -46,7 +51,7 @@
     ),
     url("../../Assets/etalk.jpg");
 }
-.VisionX{
+.VisionX {
   background-image: linear-gradient(
       0deg,
       #012a4c 36.98%,
@@ -63,12 +68,12 @@
     url("../../Assets/bw.jpg");
 }
 .list-text h1 {
-  font-size: 60px;
+  font-size: 40px;
   height: 100px;
   text-align: left;
   padding-left: 20px;
 }
-.E-Hack{
+.E-Hack {
   background-image: linear-gradient(
       0deg,
       #012a4c 36.98%,
@@ -76,7 +81,7 @@
     ),
     url("../../Assets/ehack.jpg");
 }
-.Med-Tech{
+.Med-Tech {
   background-image: linear-gradient(
       0deg,
       #012a4c 36.98%,
@@ -84,7 +89,7 @@
     ),
     url("../../Assets/MEDtech.jpg");
 }
-.Innoventure{
+.Innoventure {
   background-image: linear-gradient(
       0deg,
       #012a4c 36.98%,
@@ -92,7 +97,7 @@
     ),
     url("../../Assets/innov.jpg");
 }
-.Expo{
+.Expo {
   background-image: linear-gradient(
       0deg,
       #012a4c 36.98%,
@@ -100,13 +105,67 @@
     ),
     url("../../Assets/internexpo.jpg");
 }
-@media screen and (max-width: 600px) {
-  .list-item {
-    text-align: left;
-    box-sizing: border-box;
+
+.img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  right: 60px;
+  height: 100px;
+  width: 100px;
+}
+.etalk {
+  background-image: url("../../Assets/etalk\ icon.png");
+}
+.visionx {
+  background-image: url("../../Assets/visionx\ icon.png");
+}
+.business-workshop {
+  background-image: url("../../Assets/bw\ icon.png");
+}
+.ehack {
+  background-image: url("../../Assets/ehack\ icon.png");
+}
+.med-tech {
+  background-image: url("../../Assets/medtech\ icon.png");
+  height: 100px;
+  width: 110px;
+}
+.innoventure {
+  background-image: url("../../Assets/innov\ icon.png");
+}
+.internship-expo {
+  background-image: url("../../Assets/internexpo\ icon.png");
+}
+@media screen and (max-width: 1024px){
+  .list-bullet {
+    float: left;
+    margin-right: 20px;
+    background: #e39046;
+    height: 44px;
+    width: 44px;
+    z-index: 4;
+    line-height: 30px;
+    border-radius: 100px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-left: 18px;
+    box-shadow: inset 0 0 0 9px black;
   }
 }
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 600px) {
+  .list-wrapper {
+    padding: 0px;
+  }
+  .list-title {
+    font-weight: 700;
+    font-size: 30px;
+    left: 80px;
+    top: 0px;
+    position: absolute;
+  }
   .list-bullet {
     float: left;
     margin-right: 20px;
@@ -122,9 +181,31 @@
     margin-left: 28px;
     box-shadow: inset 0 0 0 9px black;
   }
+  .list-item {
+    text-align: left;
+    box-sizing: border-box;
+  }
   .list-text {
+    width: 90vw;
+    position: relative;
     font-size: 20px;
     padding: 20px 20px 20px 20px;
-    margin: 30px 55px 30px 10px;
   }
+  .img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+  }
+  .med-tech {
+    height: 60px;
+    width: 70px;
+  }
+  .grid {
+  display: grid;
+  grid-template-rows: auto auto;
+}
 }
