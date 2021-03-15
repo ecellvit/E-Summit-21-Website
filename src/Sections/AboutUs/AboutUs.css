@@ -35,11 +35,11 @@ padding-top: 20px 0 20px;
     margin: 0% 15% 0%;
     
 }
-h1{
+.aboutus__aboutus{
     position: relative;
     padding-bottom: 40px;
 }
-h1:before{
+.aboutus__aboutus:before{
     content: "";
     background: linear-gradient(180deg, #EDB17B 0%, rgba(237, 177, 123, 0.9) 100%);
     border-radius: 40px;
@@ -50,7 +50,7 @@ h1:before{
   width: 50%;
 
 }
-h1:after{
+.aboutus__aboutus:after{
     content: "";
     background: linear-gradient(180deg, #EDB17B 0%, rgba(237, 177, 123, 0.9) 100%);
     border-radius: 40px;
