@@ -7,13 +7,15 @@ function Event() {
   return (
     <div className="list-wrapper">
       <div id="events">
-        <h1 className="events-head">Events</h1>
+        <h1 className="events-head">
+          Events
+        </h1>
       </div>
       <div className="black-line"></div>
       <div className="list-item-wrapper">
         <div className="list-bullet"></div>
         <EventCard
-        logo="etalk"
+          logo="etalk"
           listTitle="29th April -- Day 1"
           head="E-Talk"
           content="Prominent motivational speakers from the entrepreneurial environment
@@ -27,7 +29,7 @@ function Event() {
       <div className="list-item-wrapper">
         <div className="list-bullet"></div>
         <EventCard
-        logo="visionx"
+          logo="visionx"
           listTitle="30th April -- Day 2"
           head="VisionX"
           content="Startups are only half as innovative if they fail to understand the
@@ -36,7 +38,7 @@ function Event() {
             technical concepts in their business models."
         />
         <EventCard
-        logo="business-workshop"
+          logo="business-workshop"
           listTitle=""
           head="Business workshop"
           content="The Business workshop of E-Summit brings with it the innate
@@ -44,7 +46,7 @@ function Event() {
             explore various business avenues"
         />
         <EventCard
-        logo="ehack"
+          logo="ehack"
           listTitle=""
           head="E-Hack"
           content="A test of grit, resilience and innovation, E-Hack is an overnight
@@ -55,7 +57,7 @@ function Event() {
       <div className="list-item-wrapper">
         <div className="list-bullet"></div>
         <EventCard
-        logo="med-tech"
+          logo="med-tech"
           listTitle="1st May -- Day 3"
           head="Med-Tech Challenge"
           content="Med-Tech challenge is a pitching competition that invites people to
@@ -64,7 +66,7 @@ function Event() {
             get incubation under VIT Technology Business Incubator."
         />
         <EventCard
-        logo="innoventure"
+          logo="innoventure"
           listTitle=""
           head="Innoventure"
           content="Innoventure is a business simulation which gives the participants an
@@ -77,7 +79,7 @@ function Event() {
       <div className="list-item-wrapper">
         <div className="list-bullet"></div>
         <EventCard
-        logo="internship-expo"
+          logo="internship-expo"
           listTitle="2nd May -- Day 4"
           head="Start-Up Internship Expo"
           content="Start-up Internship Expo will provide students with the chance of
