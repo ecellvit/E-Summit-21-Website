@@ -81,9 +81,10 @@
   background-repeat: no-repeat;
   background-position: center;
   position: absolute;
+  margin-top: -20px;
   right: 60px;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
 }
 .etalk {
   background-image: url("../../Assets/etalk\ icon.png");
@@ -99,8 +100,8 @@
 }
 .med-tech {
   background-image: url("../../Assets/medtech\ icon.png");
-  height: 100px;
-  width: 110px;
+  height: 80px;
+  width: 90px;
 }
 .innoventure {
   background-image: url("../../Assets/innov\ icon.png");
