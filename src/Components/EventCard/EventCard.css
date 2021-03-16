@@ -6,7 +6,6 @@
   float: left;
   margin-right: 20px;
   background: #edb17b;
-  /* #e39046 */
   height: 44px;
   width: 44px;
   z-index: 4;
@@ -30,42 +29,33 @@
   min-height: 100px;
   font-weight: 400;
   font-size: 20px;
-  padding: 40px 40px 20px 40px;
   color: white;
-  background-size: cover;
+  background-size: contain;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
   border-radius: 15px;
   margin: 30px 20px 30px 20px;
 }
+.list-text-inner {
+  border-radius: 15px;
+  padding: 40px 40px 20px 40px;
+  background: linear-gradient(0deg, #012a4c 36.98%, rgba(1, 42, 76, 0) 100%);
+}
+
 .grid {
   display: grid;
   grid-template-columns: auto auto;
 }
 .E-Talk {
-  background-image: linear-gradient(
-      0deg,
-      #012a4c 36.98%,
-      rgba(1, 42, 76, 0) 100%
-    ),
-    url("../../Assets/etalk.jpg");
+  background-image: url("../../Assets/etalk.jpg");
 }
 .VisionX {
-  background-image: linear-gradient(
-      0deg,
-      #012a4c 36.98%,
-      rgba(1, 42, 76, 0) 100%
-    ),
-    url("../../Assets/visionx.jpg");
+  background-image: url("../../Assets/visionx.jpg");
 }
 .Business {
-  background-image: linear-gradient(
-      0deg,
-      #012a4c 36.98%,
-      rgba(1, 42, 76, 0) 100%
-    ),
-    url("../../Assets/bw.jpg");
+  background-image: url("../../Assets/bw.jpg");
 }
 .list-text h1 {
   font-size: 40px;
@@ -74,36 +64,16 @@
   padding-left: 20px;
 }
 .E-Hack {
-  background-image: linear-gradient(
-      0deg,
-      #012a4c 36.98%,
-      rgba(1, 42, 76, 0) 100%
-    ),
-    url("../../Assets/ehack.jpg");
+  background-image: url("../../Assets/ehack.jpg");
 }
 .Med-Tech {
-  background-image: linear-gradient(
-      0deg,
-      #012a4c 36.98%,
-      rgba(1, 42, 76, 0) 100%
-    ),
-    url("../../Assets/MEDtech.jpg");
+  background-image: url("../../Assets/MEDtech.jpg");
 }
 .Innoventure {
-  background-image: linear-gradient(
-      0deg,
-      #012a4c 36.98%,
-      rgba(1, 42, 76, 0) 100%
-    ),
-    url("../../Assets/innov.jpg");
+  background-image: url("../../Assets/innov.jpg");
 }
 .Expo {
-  background-image: linear-gradient(
-      0deg,
-      #012a4c 36.98%,
-      rgba(1, 42, 76, 0) 100%
-    ),
-    url("../../Assets/internexpo.jpg");
+  background-image: url("../../Assets/internexpo.jpg");
 }
 
 .img {
@@ -138,7 +108,7 @@
 .internship-expo {
   background-image: url("../../Assets/internexpo\ icon.png");
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .list-bullet {
     float: left;
     margin-right: 20px;
@@ -189,7 +159,13 @@
     width: 90vw;
     position: relative;
     font-size: 20px;
+    background-size: cover;
+    background-attachment: initial;
+    margin: 64px auto auto -64px;
+  }
+  .list-text-inner {
     padding: 20px 20px 20px 20px;
+    background: linear-gradient(0deg, #012a4c 36.98%, rgba(1, 42, 76, 0) 100%);
   }
   .img {
     background-size: cover;
@@ -205,7 +181,10 @@
     width: 70px;
   }
   .grid {
-  display: grid;
-  grid-template-rows: auto auto;
-}
+    display: grid;
+    grid-template-rows: auto auto;
+  }
+  .grid h1 {
+    margin-top: 100px;
+  }
 }

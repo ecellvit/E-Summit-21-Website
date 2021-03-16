@@ -1,79 +1,159 @@
-@import 'utilities.css';
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-:root{
-    --primary : #002A4C;
-    --dark : #161616;
-    --second : #1A5678;
+@import "utilities.css";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+:root {
+  --primary: #002a4c;
+  --dark: #161616;
+  --second: #1a5678;
 }
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
-.container{
-    width: 100%;
-    height: 100vh;
+.container {
+  margin: -22px 0;
+  width: 100%;
+  height: 100vh;
 }
-  #blue-bg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background:  linear-gradient(116.63deg, #002A4C 5.17%, #1A5678 90.77%);
-    clip-path: url("#myClip");
+#blue-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(116.63deg, #002a4c 5.17%, #1a5678 90.77%);
+  clip-path: url("#myClip");
+}
+
+.content {
+  text-align: left;
+  margin: 9%;
+  width: fit-content;
+  font-size: 1vw;
+}
+
+.content .top {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 1.2em;
+  margin-bottom: 0.5rem;
+}
+.content h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 4.6em;
+  line-height: 1.2em;
+  color: #edb17b;
+  margin-bottom: 0.5em;
+}
+
+.btn {
+  padding: 0.8rem 3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: #edb17b;
+  color: #fff;
+  border-radius: 26px;
+}
+
+.btn-primary:hover {
+  background: transparent;
+  border-color: #edb17b;
+  color: #edb17b;
+  transition: all 0.5s ease;
+}
+
+.bottom {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 1.2rem;
+  margin-bottom: 2em;
+  color: rgba(255, 255, 255, 0.52);
+}
+
+#black-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../Assets/show.jpg");
+  background-size: auto;
+  background-attachment: fixed;
+  clip-path: url("#myCliped");
+}
+nav .lefty img {
+  width: 100%;
+}
+nav .righty {
+  margin-top: 1.5rem;
+  margin-right: 25%;
+}
+nav .righty a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 2rem;
+  font-size: 2vw;
+}
+
+@media screen and (max-width: 1024px) {
+  .content {
+    font-size: 1.4vw;
   }
-
-.top{
-    color: #fff;
-    font-weight: bold;
-    font-size: 17px;
-    line-height: 23px;
-    margin-bottom: 0.5rem;
-}
-.content
-{
-    position: absolute;
-    text-align: left;
-    top:230px;
-    left: 80px;
-}
-.content h1{
-    font-style: normal;
-    font-weight: 800;
-    font-size: 70px;
-    line-height: 95px;
-    color: #EDB17B;
-    margin-bottom: 0.5rem;
-}
-.bottom{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 20px;
-    margin-bottom: 2rem;
-    color: rgba(255, 255, 255, 0.52);
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    height: auto;
+  }
+  #blue-bg,
   #black-bg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: url("../../Assets/show.png");
-    background-size :auto;
-    clip-path: url("#myCliped");
+    position: relative;
   }
- nav .lefty img{
-    width: 100%;
-}
- nav .righty{
-    margin-top: 1.5rem;
-    margin-right: 25rem;
-}
-nav .righty a{
+  .content {
+    margin: 20px auto;
+    font-size: 18px;
+  }
+  nav .righty {
+    margin-right: 1.5rem;
+  }
+  nav .righty a {
     color: #fff;
     text-decoration: none;
-    margin-right: 2rem;
-    
+    margin-left: 2rem;
+    margin-right: 0;
+    font-size: 1rem;
+  }
+  #blue-bg {
+    height: 70vh;
+    clip-path: url("#myClipS");
+  }
+  #black-bg {
+    margin-top: -12vh;
+    height: 42vh;
+    clip-path: url("#myClipedS");
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .content {
+    font-size: 3vw;
+    margin: 18vh 20vw auto 20px;
+  }
+  .content h1 {
+    font-size: 3.6em;
+  }
+  .content .top {
+    font-size: 1.2em;
+  }
+  .btn {
+    padding: 0.3rem 1.2rem;
+  }
 }

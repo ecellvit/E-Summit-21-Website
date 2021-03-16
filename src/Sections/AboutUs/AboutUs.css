@@ -1,71 +1,49 @@
-
-.aboutus{
-    background: FFFFFF, 100%;
-    justify-content: center;
-    
+.aboutus {
+  background: FFFFFF, 100%;
+  justify-content: center;
 }
 
-.aboutus__aboutus{
-
-font-style: normal;
-font-weight: bold;
-font-size: 40px;
-line-height: 54px;
-text-align: center;
-font-family: Open Sans;
-padding-top: 40px;
-
+.aboutus__aboutus {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 54px;
+  text-align: center;
+  font-family: Open Sans;
+  padding-top: 40px;
 }
 .aboutus__aboutusinfo {
-
-font-family: Open Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 27px;
-text-align: center;
-padding-top: 20px 0 20px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  padding-top: 20px 0 20px;
 }
-
-
-
 
 .random {
-    margin: 0% 15% 0%;
-    
+  margin: 0% 15% 0%;
 }
-.aboutus__aboutus{
-    position: relative;
-    padding-bottom: 40px;
-}
-.aboutus__aboutus:before{
-    content: "";
-    background: linear-gradient(180deg, #EDB17B 0%, rgba(237, 177, 123, 0.9) 100%);
-    border-radius: 40px;
-    display: inline-block;
-  height: 2px;
-  position: relative;
-  vertical-align: middle;
-  width: 50%;
 
+.separator {
+  width: 100vw;
+  margin: 40px 0;
+  height: 20px;
+  border-bottom: 3px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    180deg,
+    #edb17b 0%,
+    rgba(237, 177, 123, 0.9) 100%
+  );
+  text-align: center;
 }
-.aboutus__aboutus:after{
-    content: "";
-    background: linear-gradient(180deg, #EDB17B 0%, rgba(237, 177, 123, 0.9) 100%);
-    border-radius: 40px;
-    display: inline-block;
-  height: 2px;
-  position: relative;
-  vertical-align: middle;
-  width: 50%;
 
+.separator span {
+  line-height: 43px;
+  font-size: 32px;
+  font-weight: 600;
+  background-color: #FFF;
+  padding: 0 0.25em;
 }
-h1:before {
-    right: 0.5em;
-    margin-left: -50%;
-  }
-  
-  h1:after {
-    left: 0.5em;
-    margin-right: -50%;
-  }
