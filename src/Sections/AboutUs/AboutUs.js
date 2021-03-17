@@ -17,7 +17,7 @@ function AboutUs() {
         </p>
       </div>
       <div className="separator">
-        <span>About Us</span>
+        <span>About E-Summit</span>
       </div>
       <div className="random">
         <p className="aboutus__aboutusinfo">

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
 .list-wrapper {
   position: relative;
   padding: 0px 80px 20px 80px;
@@ -7,11 +9,13 @@
 
 .event-head {
   position: absolute;
-  font-size: 32px;
-  font-weight: 600;
+  font-size: 40px;
+  font-weight: bold;
+  color: #012a4c;
+  font-family: "Open Sans", sans-serif;
   background-color: #fff;
   padding: 0 0.25em;
-  top: -24px;
+  top: -34px;
   left: 34px;
 }
 
@@ -21,6 +25,11 @@
   display: inline-block;
 }
 
+.list-title{
+  font-family: "Open Sans", sans-serif;
+  color: #012a4c;
+  font-weight: 700;
+}
 .rb-container ul.rb li {
   list-style: none;
   margin: auto;
