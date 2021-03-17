@@ -1,0 +1,40 @@
+.past-sponsors {
+  background: linear-gradient(180deg, #1a5678 7.79%, #002a4c 64.23%);
+}
+
+.past-sponsors .sponsor-head {
+  width: 100vw;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  padding-top: 70px;
+}
+
+.past-sponsors .grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.past-sponsors .grid-item {
+  display: flex;
+  width: 30%;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.past-sponsors .grid-item img {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .past-sponsors .grid-item {
+    width: 45%;
+  }
+  .past-sponsors .sponsor-head {
+    font-size: 30px;
+    padding-top: 50px;
+  }
+}

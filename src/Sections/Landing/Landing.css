@@ -71,6 +71,14 @@
   transition: all 0.5s ease;
 }
 
+.rightcode {
+  display: none !important;
+  margin-right: 20px;
+  font-size: 32px !important;
+  color: #fff;
+  margin-top: 20px;
+}
+
 .bottom {
   font-style: normal;
   font-weight: bold;
@@ -103,9 +111,15 @@ nav .righty a {
   font-size: 1.3rem;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 991px) {
   .content {
     font-size: 1.2vw;
+  }
+  nav .righty a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 2rem;
+    font-size: 1rem;
   }
 }
 
@@ -155,5 +169,16 @@ nav .righty a {
   }
   .btn {
     padding: 0.3rem 1.2rem;
+  }
+  nav .righty {
+    display: none;
+  }
+  .rightcode {
+    display: inline-block !important;
+  }
+  nav .lefty img {
+    width: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
   }
 }

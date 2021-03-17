@@ -10,7 +10,7 @@
   font-weight: bold;
   font-size: 40px;
   line-height: 54px;
-  color: #012A4C;
+  color: #012a4c;
   text-align: center;
   font-family: "Open Sans", sans-serif;
   padding-top: 40px;
@@ -19,20 +19,19 @@
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
-  color: #012A4C;
+  color: #012a4c;
   font-size: 20px;
   line-height: 27px;
   text-align: center;
-  padding-top: 20px 0 20px;
 }
 
 .random {
-  margin: 0% 15% 0%;
+  margin: 0% 15%;
 }
 
 .separator {
   width: 100vw;
-  margin: 40px 0;
+  margin: 70px 0 45px 0;
   height: 27px;
   border-bottom: 4px solid;
   border-image-slice: 1;
@@ -49,7 +48,16 @@
   font-size: 40px;
   font-weight: bold;
   font-family: "Open Sans", sans-serif;
-  color: #012A4C;
-  background-color: #FFF;
+  color: #012a4c;
+  background-color: #fff;
   padding: 0 0.25em;
+}
+
+@media screen and (max-width: 600px) {
+  .separator span {
+    font-size: 30px;
+  }
+  .random {
+    margin: 0% 5%;
+  }
 }

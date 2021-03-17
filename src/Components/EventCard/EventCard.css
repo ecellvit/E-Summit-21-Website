@@ -2,24 +2,8 @@
   margin-top: 10px;
   position: relative;
 }
-.list-bullet {
-  float: left;
-  margin-right: 20px;
-  background: #edb17b;
-  height: 44px;
-  width: 44px;
-  z-index: 4;
-  line-height: 30px;
-  border-radius: 100px;
-  font-weight: 700;
-  color: white;
-  text-align: center;
-  margin-left: 72px;
-  box-shadow: inset 0 0 0 9px black;
-}
 .list-item {
   display: table-row;
-  vertical-align: middle;
 }
 .list-title {
   font-weight: 700;
@@ -30,7 +14,7 @@
   font-weight: 400;
   font-size: 20px;
   color: white;
-  background-size: contain;
+  background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -45,147 +29,118 @@
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
 }
+
 .E-Talk {
   background-image: url("../../Assets/etalk.jpg");
 }
+.E-Talk .img {
+  background-image: url("../../Assets/etalk\ icon.png");
+}
+
 .VisionX {
   background-image: url("../../Assets/visionx.jpg");
 }
+.VisionX .img {
+  background-image: url("../../Assets/visionx\ icon.png");
+}
+
 .Business {
   background-image: url("../../Assets/bw.jpg");
 }
-.list-text h1 {
-  font-size: 40px;
-  height: 100px;
-  text-align: left;
-  padding-left: 20px;
+.Business .img {
+  background-image: url("../../Assets/bw\ icon.png");
 }
+
 .E-Hack {
   background-image: url("../../Assets/ehack.jpg");
 }
+.E-Hack .img {
+  background-image: url("../../Assets/ehack\ icon.png");
+}
+
 .Med-Tech {
   background-image: url("../../Assets/MEDtech.jpg");
 }
+.Med-Tech .img {
+  background-image: url("../../Assets/medtech\ icon.png");
+}
+
 .Innoventure {
   background-image: url("../../Assets/innov.jpg");
 }
-.Expo {
+.Innoventure .img {
+  background-image: url("../../Assets/innov\ icon.png");
+}
+
+.Start-Up {
   background-image: url("../../Assets/internexpo.jpg");
+}
+.Start-Up .img {
+  background-image: url("../../Assets/internexpo\ icon.png");
+}
+
+.list-text h1 {
+  font-size: 40px;
+  width: 100%;
+  text-align: left;
+  padding-right: 80px;
+  margin-bottom: 50px;
 }
 
 .img {
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
   position: absolute;
-  margin-top: -20px;
-  right: 60px;
   height: 80px;
   width: 80px;
+  margin-top: -20px;
+  right: 60px;
 }
-.etalk {
-  background-image: url("../../Assets/etalk\ icon.png");
-}
-.visionx {
-  background-image: url("../../Assets/visionx\ icon.png");
-}
-.business-workshop {
-  background-image: url("../../Assets/bw\ icon.png");
-}
-.ehack {
-  background-image: url("../../Assets/ehack\ icon.png");
-}
-.med-tech {
-  background-image: url("../../Assets/medtech\ icon.png");
-  height: 80px;
-  width: 90px;
-}
-.innoventure {
-  background-image: url("../../Assets/innov\ icon.png");
-}
-.internship-expo {
-  background-image: url("../../Assets/internexpo\ icon.png");
-}
-@media screen and (max-width: 1024px) {
-  .list-bullet {
-    float: left;
-    margin-right: 20px;
-    background: #e39046;
-    height: 44px;
-    width: 44px;
-    z-index: 4;
-    line-height: 30px;
-    border-radius: 100px;
-    font-weight: 700;
-    color: white;
-    text-align: center;
-    margin-left: 18px;
-    box-shadow: inset 0 0 0 9px black;
-  }
-}
+
 @media screen and (max-width: 600px) {
   .list-wrapper {
     padding: 0px;
   }
   .list-title {
     font-weight: 700;
-    font-size: 30px;
-    left: 80px;
-    top: 0px;
-    position: absolute;
-  }
-  .list-bullet {
-    float: left;
-    margin-right: 20px;
-    background: #e39046;
-    height: 44px;
-    width: 44px;
-    z-index: 4;
-    line-height: 30px;
-    border-radius: 100px;
-    font-weight: 700;
-    color: white;
-    text-align: center;
-    margin-left: 28px;
-    box-shadow: inset 0 0 0 9px black;
-  }
-  .list-item {
-    text-align: left;
-    box-sizing: border-box;
+    font-size: 8vw;
+    margin-bottom: -15px;
   }
   .list-text {
-    width: 90vw;
     position: relative;
-    font-size: 20px;
+    font-size: 3vw;
+    text-align: left;
     background-size: cover;
     background-attachment: initial;
-    margin: 64px auto auto -64px;
+    margin: 8vw 5vw auto -64px;
   }
   .list-text-inner {
     padding: 20px 20px 20px 20px;
-    background: linear-gradient(0deg, #012a4c 36.98%, rgba(1, 42, 76, 0) 100%);
+  }
+  .list-text h1 {
+    font-size: 7.7vw;
+    padding-right: 70px;
+    margin-bottom: 35px;
   }
   .img {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: absolute;
-    right: 10px;
     height: 70px;
     width: 70px;
+    margin-top: -10px;
+    right: 20px;
   }
-  .med-tech {
-    height: 60px;
-    width: 70px;
+}
+
+@media screen and (max-width: 500px) {
+  .list-text {
+    font-size: 4vw;
   }
-  .grid {
-    display: grid;
-    grid-template-rows: auto auto;
-  }
-  .grid h1 {
-    margin-top: 100px;
+}
+
+@media screen and (max-width: 400px) {
+  .list-text {
+    font-size: 5vw;
   }
 }

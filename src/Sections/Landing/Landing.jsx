@@ -1,8 +1,13 @@
-import React from "react";
-import "./Landing.css";
+import React, { useState } from "react";
 import LOGO from "../../Assets/logo.png";
+import Burger from "../../Components/Burger/Burger";
+import Menu from "../../Components/Menu/Menu";
+import "vscode-codicons/dist/codicon.css";
+import "./Landing.css";
 
 function Landing() {
+  const [open, setOpen] = useState(false);
+  const menuId = "main-menu";
   return (
     <div>
       <svg width="0" height="0">
@@ -35,32 +40,36 @@ function Landing() {
       </svg>
       <div className="container">
         <div id="blue-bg">
-          <nav class="flex justify-between">
-            <div class="lefty flex items-center">
-              <div class="logo">
+          <nav className="flex justify-between">
+            <div className="lefty flex items-center">
+              <div className="logo">
                 <img src={LOGO} alt="E-Summit" />
               </div>
             </div>
-            <div class="righty">
+            <div className="righty">
               <a href="#home">Home</a>
               <a href="#about">About Us</a>
               <a href="#events">Events</a>
               <a href="#speakers">Speakers</a>
               <a href="#sponsors">Sponsors</a>
             </div>
+            <div className="rightcode">
+              <Burger open={open} setOpen={setOpen} aria-controls={menuId} />
+            </div>
           </nav>
-          <div class="content">
-            <p class="top">ECELL-VIT Presents</p>
+          <div className="content">
+            <p className="top">ECELL-VIT Presents</p>
             <h1>E-SUMMIT'21</h1>
-            <p class="bottom">
+            <p className="bottom">
               The 3rd edition of the biggest business fest in South India
             </p>
             <div>
-              <button class="btn btn-primary">Register Now!</button>
+              <button className="btn btn-primary">Register Now!</button>
             </div>
           </div>
         </div>
         <div id="black-bg"></div>
+        <Menu open={open} setOpen={setOpen} id={menuId} />
       </div>
     </div>
   );
