@@ -30,7 +30,7 @@
   text-align: left;
   margin: 9%;
   width: fit-content;
-  font-size: 1vw;
+  font-size: 1.5vw;
 }
 
 .content .top {
@@ -100,12 +100,12 @@ nav .righty a {
   color: #fff;
   text-decoration: none;
   margin-right: 2rem;
-  font-size: 2vw;
+  font-size: 1.3rem;
 }
 
 @media screen and (max-width: 1024px) {
   .content {
-    font-size: 1.4vw;
+    font-size: 1.2vw;
   }
 }
 
@@ -118,7 +118,7 @@ nav .righty a {
     position: relative;
   }
   .content {
-    margin: 20px auto;
+    margin: 2rem auto;
     font-size: 18px;
   }
   nav .righty {

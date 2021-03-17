@@ -22,14 +22,14 @@ function Landing() {
       <svg width="0" height="0">
         <defs>
           <clipPath id="myClipS" clipPathUnits="objectBoundingBox">
-            <path d="M0,0 H1 V0.753 C1,0.781,0.973,0.807,0.933,0.816 L0.127,0.997 C0.064,1,0,0.979,0,0.933 V0" />
+            <path d="M0,0 H1 V0.763 C1,0.777,0.973,0.809,0.933,0.816 L0.127,0.987 C0.09,0.996,0,0.98,0,0.94 V0" />
           </clipPath>
         </defs>
       </svg>
       <svg width="0" height="0">
         <defs>
           <clipPath id="myClipedS" clipPathUnits="objectBoundingBox">
-            <path d="M0,0.419 C0,0.375,0.027,0.336,0.066,0.322 L0.873,0.034 C0.936,0.022,1,0.071,1,0.14 V1 H0 V0.419" />
+            <path d="M0,0.419 C0,0.395,0.005,0.356,0.056,0.325 L0.873,0.025 C0.956,0.00,1,0.061,1,0.17 V1 H0 V0.419" />
           </clipPath>
         </defs>
       </svg>
