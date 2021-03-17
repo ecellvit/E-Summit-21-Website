@@ -2,7 +2,7 @@ import React from "react";
 import "./AboutUs.css";
 function AboutUs() {
   return (
-    <div className="aboutus">
+    <div className="aboutus" id="about">
       <div className="separator">
         <span>About Us</span>
       </div>

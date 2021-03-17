@@ -20,11 +20,11 @@
   background-position: center;
   text-align: center;
   border-radius: 15px;
-  margin: 30px 20px 30px 20px;
+  margin: 30px 20px 0px 20px;
 }
 .list-text-inner {
   border-radius: 15px;
-  padding: 40px 40px 20px 40px;
+  padding: 40px 40px 40px 40px;
   background: linear-gradient(0deg, #012a4c 36.98%, rgba(1, 42, 76, 0) 100%);
 }
 
@@ -106,7 +106,7 @@
   }
   .list-title {
     font-weight: 700;
-    font-size: 8vw;
+    font-size: 24px;
     margin-bottom: -15px;
   }
   .list-text {
@@ -116,9 +116,6 @@
     background-size: cover;
     background-attachment: initial;
     margin: 8vw 5vw auto -64px;
-  }
-  .list-text-inner {
-    padding: 20px 20px 20px 20px;
   }
   .list-text h1 {
     font-size: 7.7vw;

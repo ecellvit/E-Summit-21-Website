@@ -4,6 +4,7 @@ import Burger from "../../Components/Burger/Burger";
 import Menu from "../../Components/Menu/Menu";
 import "vscode-codicons/dist/codicon.css";
 import "./Landing.css";
+import Sidebar from "../../Components/Sidebar/Sidebar";
 
 function Landing() {
   const [open, setOpen] = useState(false);
@@ -47,11 +48,7 @@ function Landing() {
               </div>
             </div>
             <div className="righty">
-              <a href="#home">Home</a>
-              <a href="#about">About Us</a>
-              <a href="#events">Events</a>
-              <a href="#speakers">Speakers</a>
-              <a href="#sponsors">Sponsors</a>
+              <Menu />
             </div>
             <div className="rightcode">
               <Burger open={open} setOpen={setOpen} aria-controls={menuId} />
@@ -69,7 +66,7 @@ function Landing() {
           </div>
         </div>
         <div id="black-bg"></div>
-        <Menu open={open} setOpen={setOpen} id={menuId} />
+        <Sidebar open={open} setOpen={setOpen} id={menuId} />
       </div>
     </div>
   );

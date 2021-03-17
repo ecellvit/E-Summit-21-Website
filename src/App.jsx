@@ -4,6 +4,9 @@ import Event from "./Sections/Event/Event";
 import AboutUs from "./Sections/AboutUs/AboutUs";
 import Landing from "./Sections/Landing/Landing";
 import Sponsors from "./Sections/Sponsors/Sponsors";
+import Footer from "./Sections/Footer/Footer";
+import Registration from "./Sections/Registration/Registration";
+import Speakers from "./Sections/Speakers/Speakers";
 
 function App() {
   return (
@@ -11,7 +14,12 @@ function App() {
       <Landing />
       <AboutUs />
       <Event />
-      <Sponsors />
+      <Speakers />
+      <div className="blue-grad">
+        <Sponsors />
+        <Registration />
+        <Footer />
+      </div>
     </>
   );
 }

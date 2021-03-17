@@ -1,23 +1,16 @@
 import React from "react";
-import { bool } from "prop-types";
-import { StyledMenu } from "./Menu.styled";
+import { Link } from "react-scroll";
 
-const Menu = ({ open, ...props }) => {
-  const isHidden = open ? true : false;
-
+function Menu() {
   return (
-    <StyledMenu open={open} aria-hidden={!isHidden} {...props}>
-      <a href="#home">Home</a>
-      <a href="#about">About Us</a>
-      <a href="#events">Events</a>
-      <a href="#speakers">Speakers</a>
-      <a href="#sponsors">Sponsors</a>
-    </StyledMenu>
+    <>
+      <Link to="home">Home</Link>
+      <Link to="about">About</Link>
+      <Link to="events">Events</Link>
+      <Link to="speakers">Speakers</Link>
+      <Link to="sponsors">Sponsors</Link>
+    </>
   );
-};
-
-Menu.propTypes = {
-  open: bool.isRequired,
-};
+}
 
 export default Menu;

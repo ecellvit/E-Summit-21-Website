@@ -7,75 +7,75 @@ function Event() {
     <>
       <div id="events">
         <div className="separator"></div>
-      </div>
-      <div className="list-wrapper">
-        <span className="event-head">Events</span>
-        <div className="rb-container">
-          <ul className="rb">
-            <li>
-              <div className="list-title">29th April -- Day 1</div>
-              <EventCard
-                head="E-Talk"
-                content="Prominent motivational speakers from the entrepreneurial environment
+        <div className="list-wrapper">
+          <span className="event-head">Events</span>
+          <div className="rb-container">
+            <ul className="rb">
+              <li>
+                <div className="list-title">29th April -- Day 1</div>
+                <EventCard
+                  head="E-Talk"
+                  content="Prominent motivational speakers from the entrepreneurial environment
             will be delivering a talk to inspire the students and promote the
             ethos of entrepreneurship in the campus. This session will also be
             open to questions from the audience, thus furnishing the minds of
             the students with vivid ideas and a clearer picture of the
             entrepreneurship realm."
-              />
-            </li>
-            <li>
-              <div className="list-title">30th April -- Day 2</div>
-              <EventCard
-                head="VisionX"
-                content="Startups are only half as innovative if they fail to understand the
+                />
+              </li>
+              <li>
+                <div className="list-title">30th April -- Day 2</div>
+                <EventCard
+                  head="VisionX"
+                  content="Startups are only half as innovative if they fail to understand the
             intricacies of their domain. To ensure that startups realise their
             true potential, VisionX nurtures young minds to incorporate
             technical concepts in their business models."
-              />
-              <EventCard
-                head="Business workshop"
-                content="The Business workshop of E-Summit brings with it the innate
+                />
+                <EventCard
+                  head="Business workshop"
+                  content="The Business workshop of E-Summit brings with it the innate
             opportunity to discover the nuts and bolts of the startup world and
             explore various business avenues"
-              />
-              <EventCard
-                head="E-Hack"
-                content="A test of grit, resilience and innovation, E-Hack is an overnight
+                />
+                <EventCard
+                  head="E-Hack"
+                  content="A test of grit, resilience and innovation, E-Hack is an overnight
             Hackathon that challenges participants to come up with effective
             solutions to real-world problems."
-              />
-            </li>
-            <li>
-              <div className="list-title">1st May -- Day 3</div>
-              <EventCard
-                head="Med-Tech Challenge"
-                content="Med-Tech challenge is a pitching competition that invites people to
+                />
+              </li>
+              <li>
+                <div className="list-title">1st May -- Day 3</div>
+                <EventCard
+                  head="Med-Tech Challenge"
+                  content="Med-Tech challenge is a pitching competition that invites people to
             come up with ideas or prototypes capable of producing an impactful
             change in the medical sector. Visionary ideas with worthy pitches
             get incubation under VIT Technology Business Incubator."
-              />
-              <EventCard
-                head="Innoventure"
-                content="Innoventure is a business simulation which gives the participants an
+                />
+                <EventCard
+                  head="Innoventure"
+                  content="Innoventure is a business simulation which gives the participants an
             entrepreneurial ecosystem and platform to develop skills like
             product development, business analysis, inculcate knowledge about
             the trends in the current market and economic concepts like taxation
             which prevail important applications in day to day lives."
-              />
-            </li>
-            <li>
-              <div className="list-title">2nd May -- Day 4</div>
-              <EventCard
-                head="Start-Up Internship Expo"
-                content="Start-up Internship Expo will provide students with the chance of
+                />
+              </li>
+              <li>
+                <div className="list-title">2nd May -- Day 4</div>
+                <EventCard
+                  head="Start-Up Internship Expo"
+                  content="Start-up Internship Expo will provide students with the chance of
             landing their dream internships. Major startups from all over India
             will become a part of this motion by providing exciting internship
             offers to bright minds, allowing them to enrich themselves with
             wisdom and knowledge of the real world."
-              />
-            </li>
-          </ul>
+                />
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </>

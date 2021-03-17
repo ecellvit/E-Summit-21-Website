@@ -1,14 +1,10 @@
-.past-sponsors {
-  background: linear-gradient(180deg, #1a5678 7.79%, #002a4c 64.23%);
-}
-
 .past-sponsors .sponsor-head {
   width: 100vw;
   text-align: center;
   font-size: 40px;
   font-weight: 700;
   color: #fff;
-  padding-top: 70px;
+  padding: 70px 10px;
 }
 
 .past-sponsors .grid-container {

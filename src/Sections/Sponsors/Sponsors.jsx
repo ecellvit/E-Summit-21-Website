@@ -11,23 +11,23 @@ function Sponsors() {
   return (
     <div className="past-sponsors" id="sponsors">
       <div className="sponsor-head">Past Sponsors</div>
-      <div class="grid-container">
-        <div class="grid-item">
+      <div className="grid-container">
+        <div className="grid-item">
           <img src={CC} alt="Sponsor Logo" />
         </div>
-        <div class="grid-item">
+        <div className="grid-item">
           <img src={P} alt="Sponsor Logo" />
         </div>
-        <div class="grid-item">
+        <div className="grid-item">
           <img src={SP} alt="Sponsor Logo" />
         </div>
-        <div class="grid-item">
+        <div className="grid-item">
           <img src={JB} alt="Sponsor Logo" />
         </div>
-        <div class="grid-item">
+        <div className="grid-item">
           <img src={IX} alt="Sponsor Logo" />
         </div>
-        <div class="grid-item">
+        <div className="grid-item">
           <img src={SC} alt="Sponsor Logo" />
         </div>
       </div>
