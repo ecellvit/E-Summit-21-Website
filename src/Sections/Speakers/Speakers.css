@@ -34,13 +34,20 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
+}
+
+.speaker-detail div:nth-child(2) {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .speaker-detail div:last-child {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 19px;
+  line-height: 17px;
+  color: #ffffff;
 }
 
 .react-multiple-carousel__arrow {

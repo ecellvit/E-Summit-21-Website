@@ -2,7 +2,12 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./Speakers.css";
-import test from "../../Assets/etalk.jpg";
+import ajit from "../../Assets/Ajit.jpg";
+import ukil from "../../Assets/ukil.jpg";
+import venky from "../../Assets/venky.jpg";
+import shashank from "../../Assets/shashank.jpg";
+import kumar from "../../Assets/kumar.jpg";
+import rahul from "../../Assets/rahul.jpg";
 
 function Speakers() {
   return (
@@ -26,7 +31,7 @@ function Speakers() {
           itemClass=""
           keyBoardControl
           minimumTouchDrag={80}
-          renderButtonGroupOutside={false}
+          renderButtonGroupOutside={true}
           renderDotsOutside={false}
           responsive={{
             desktop: {
@@ -61,37 +66,61 @@ function Speakers() {
         >
           <div className="speaker-item">
             <div className="speaker-card">
-              <img src={test} alt="Speaker" />
+              <img src={ajit} alt="Speaker" />
               <div className="speaker-detail">
-                <div>Hello Varun</div>
-                <div>Founder</div>
+                <div>Ajit Sivarkar</div>
+                <div>VP &amp; GM</div>
+                <div>Lenovo</div>
               </div>
             </div>
           </div>
           <div className="speaker-item">
             <div className="speaker-card">
-              <img src={test} alt="Speaker" />
+              <img src={ukil} alt="Speaker" />
               <div className="speaker-detail">
-                <div>Hello Varun</div>
-                <div>Founder</div>
+                <div>Raja Ukil</div>
+                <div>VP &amp; Global Head</div>
+                <div>Wipro</div>
               </div>
             </div>
           </div>
           <div className="speaker-item">
             <div className="speaker-card">
-              <img src={test} alt="Speaker" />
+              <img src={venky} alt="Speaker" />
               <div className="speaker-detail">
-                <div>Hello Varun</div>
-                <div>Founder</div>
+                <div>Venkatesh Murthy</div>
+                <div>Founder &amp; CEO</div>
+                <div>Wharf Street Strategies</div>
               </div>
             </div>
           </div>
           <div className="speaker-item">
             <div className="speaker-card">
-              <img src={test} alt="Speaker" />
+              <img src={shashank} alt="Speaker" />
               <div className="speaker-detail">
-                <div>Hello Varun</div>
+                <div>Shashank Vaishnav</div>
+                <div>Founder &amp; CTO</div>
+                <div>WittyFeed</div>
+              </div>
+            </div>
+          </div>
+          <div className="speaker-item">
+            <div className="speaker-card">
+              <img src={kumar} alt="Speaker" />
+              <div className="speaker-detail">
+                <div>Kumar Gaurav</div>
                 <div>Founder</div>
+                <div>Cashaa</div>
+              </div>
+            </div>
+          </div>
+          <div className="speaker-item">
+            <div className="speaker-card">
+              <img src={rahul} alt="Speaker" />
+              <div className="speaker-detail">
+                <div>Rahul Narvekar</div>
+                <div>Founder</div>
+                <div>The Indian Network</div>
               </div>
             </div>
           </div>
