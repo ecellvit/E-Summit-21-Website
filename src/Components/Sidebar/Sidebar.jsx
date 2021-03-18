@@ -1,5 +1,4 @@
 import React from "react";
-import { bool } from "prop-types";
 import { StyledMenu } from "./Menu.styled";
 import Menu from "../Menu/Menu";
 
@@ -11,10 +10,6 @@ const Sidebar = ({ open, ...props }) => {
       <Menu />
     </StyledMenu>
   );
-};
-
-Menu.propTypes = {
-  open: bool.isRequired,
 };
 
 export default Sidebar;
