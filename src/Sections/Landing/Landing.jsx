@@ -1,12 +1,19 @@
-import React, { useState } from "react";
+import React, { useState , useEffect } from "react";
 import LOGO from "../../Assets/logo.png";
 import Burger from "../../Components/Burger/Burger";
 import Menu from "../../Components/Menu/Menu";
 import "vscode-codicons/dist/codicon.css";
 import "./Landing.css";
 import Sidebar from "../../Components/Sidebar/Sidebar";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Landing() {
+
+  useEffect(() => {
+    Aos.init({ duration: "1000" });
+  }, []);
+
   const [open, setOpen] = useState(false);
   const menuId = "main-menu";
   return (

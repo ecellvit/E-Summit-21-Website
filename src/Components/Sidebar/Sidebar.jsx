@@ -8,7 +8,7 @@ const Sidebar = ({ open, ...props }) => {
 
   return (
     <StyledMenu open={open} aria-hidden={!isHidden} {...props}>
-      <Menu />
+      <Menu/>
     </StyledMenu>
   );
 };
