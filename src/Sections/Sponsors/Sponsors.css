@@ -18,7 +18,7 @@
 
 .past-sponsors .grid-item {
   display: flex;
-  width: 30%;
+  width: 25%;
   height: 200px;
   padding: 20px;
   justify-content: center;
@@ -30,9 +30,19 @@
   max-height: 200px;
 }
 
+@media screen and (max-width: 1200px) {
+  .past-sponsors .grid-item {
+    width: 33%;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .past-sponsors .grid-item {
     width: 45%;
+    height: 130px;
+  }
+  .past-sponsors .grid-item img {
+    max-height: 130px;
   }
   .past-sponsors .sponsor-head {
     font-size: 30px;

@@ -108,7 +108,27 @@ nav .righty a {
   text-decoration: none;
   margin-right: 2rem;
   font-size: 1.3rem;
+  position: relative;
   cursor: pointer;
+}
+
+nav .righty a:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  width: 0;
+  bottom: -5px;
+  background: #fff;
+  height: 2px;
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+nav .righty a:hover:after {
+  left: 0;
+  right: auto;
+  width: 100%;
 }
 
 @media screen and (max-width: 991px) {

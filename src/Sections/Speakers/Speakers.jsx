@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./Speakers.css";
@@ -8,11 +8,16 @@ import venky from "../../Assets/venky.jpg";
 import shashank from "../../Assets/shashank.jpg";
 import kumar from "../../Assets/kumar.jpg";
 import rahul from "../../Assets/rahul.jpg";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Speakers() {
+  useEffect(() => {
+    Aos.init({ duration: "1000" });
+  }, []);
   return (
     <div id="speakers">
-      <div className="separator">
+      <div data-aos="flip-left" className="separator">
         <span>Past Speakers</span>
       </div>
       <div className="carousel">

@@ -13,9 +13,9 @@ function Event() {
   return (
     <>
       <div id="events">
-        <div className="separator"></div>
+        <div data-aos="flip-left" className="separator"></div>
         <div className="list-wrapper">
-          <span className="event-head">Events</span>
+          <span data-aos="flip-left" className="event-head">Events</span>
           <div className="rb-container">
             <ul className="rb">
               <li>

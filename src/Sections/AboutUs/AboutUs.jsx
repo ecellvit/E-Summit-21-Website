@@ -11,8 +11,8 @@ function AboutUs() {
 
   return (
     <div className="aboutus" id="about">
-      <div className="separator">
-        <span data-aos="fade-up">About Us</span>
+      <div data-aos="flip-left" className="separator">
+        <span>About Us</span>
       </div>
       <div className="random">
         <p data-aos="zoom-in" className="aboutus__aboutusinfo">
@@ -24,8 +24,8 @@ function AboutUs() {
           into leading start-ups
         </p>
       </div>
-      <div className="separator">
-        <span data-aos="fade-up">About E-Summit</span>
+      <div data-aos="flip-left" className="separator">
+        <span>About E-Summit</span>
       </div>
       <div className="random">
         <p data-aos="zoom-in" className="aboutus__aboutusinfo">
