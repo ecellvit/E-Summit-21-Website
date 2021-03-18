@@ -31,4 +31,12 @@
     border-radius: 0;
     margin: 8rem auto 3rem auto;
   }
+  .reg-head {
+    font-weight: 700;
+    font-size: 32px;
+  }
+  .reg-para {
+    font-weight: 600;
+    font-size: 18px;
+  }
 }
