@@ -10,6 +10,7 @@ import IS from "../../Assets/internshala.png"
 import ZP from "../../Assets/zebpay.png"
 import GM from "../../Assets/geeksmate.png"
 import YS from "../../Assets/yourstory.png"
+import KK from "../../Assets/kaspersky.png"
 
 import "./Sponsors.css";
 import Aos from "aos";
@@ -89,8 +90,8 @@ function Sponsors() {
         </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
-        <a href="">
-        <img src={SC} alt="Sponsor Logo" />
+        <a href="https://www.kaspersky.co.in/">
+        <img src={KK} alt="Sponsor Logo" />
         </a>
         </div>
         {/* <div data-aos="flip-up" className="grid-item">

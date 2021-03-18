@@ -19,13 +19,15 @@
 .past-sponsors .grid-item {
   display: flex;
   width: 30%;
+  height: 200px;
   padding: 20px;
   justify-content: center;
   align-items: center;
 }
 
 .past-sponsors .grid-item img {
-  max-width: 65%;
+  max-width: 75%;
+  max-height: 200px;
 }
 
 @media screen and (max-width: 600px) {
