@@ -24,7 +24,7 @@ function Event() {
                 <div data-aos="flip-left">
                   <EventCard
                     head="E-Talk"
-                    content="Prominent motivational speakers from the entrepreneurial world deliver a talk to inspire students and promote the ethos of entrepreneurship in the campus. This session is open to questions from the audience, thus furnishing their minds with vivid ideas and a clearer picture of the entrepreneurship realm."
+                    content="Prominent speakers from the entrepreneurial world deliver a talk to promote the ethos of entrepreneurship in the campus. The session is open to the audience's questions, thus furnishing their minds with a clearer picture of entrepreneurship."
                   />
                 </div>
               </li>
@@ -39,13 +39,13 @@ function Event() {
                 <div data-aos="flip-left">
                   <EventCard
                     head="Business workshop"
-                    content="The Business workshop of E-Summit brings with it the innate opportunity to discover the nuts and bolts of the startup world and explore various business avenues."
+                    content="The Business workshop of E-Summit brings with it the innate opportunity to discover the nuts and bolts of the startup world. Leveraging basic business concepts to a higher pedestal, this event inspires students to explore various business avenues."
                   />
                 </div>
                 <div data-aos="flip-right">
                   <EventCard
                     head="E-Hack"
-                    content="A test of grit, resilience and innovation, E-Hack is an overnight Hackathon that challenges participants to come up with effective solutions to real-world problems."
+                    content="E-Hack is an overnight Hackathon that aims to find the leaders of tomorrow. Challenging participants to come up with effective solutions to real-world problems, this event is one comprehensive test of grit, resilience and innovation."
                   />
                 </div>
               </li>
@@ -54,13 +54,13 @@ function Event() {
                 <div data-aos="flip-left">
                   <EventCard
                     head="Med-Tech Challenge"
-                    content="Med-Tech challenge is a pitching competition that invites people to come up with ideas or prototypes capable of producing an impactful change in the medical sector. Visionary ideas with worthy pitches get incubation under VIT Technology Business Incubator."
+                    content="Med-Tech challenge is a pitching competition that invites people to come up with ideas or prototypes capable of producing an impactful change in the medical sector. Visionary ideas with worthy pitches get incubation under VITTBI."
                   />
                 </div>
                 <div data-aos="flip-right">
                   <EventCard
                     head="Innoventure"
-                    content="Innoventure is a business simulation that gives participants an entrepreneurial ecosystem and platform to develop skills like product development, business analysis while inculcating knowledge about current market trends and economic concepts like taxation which prevail in important applications of day-to-day lives."
+                    content="Innoventure is a business simulation that gives participants a platform to develop skills like product development and business analysis while inculcating knowledge about market trends and economic concepts that prevail in day-to-day applications."
                   />
                 </div>
               </li>
@@ -69,7 +69,7 @@ function Event() {
                 <div data-aos="flip-left">
                   <EventCard
                     head="Start-Up Internship Expo"
-                    content="Start-up Internship Expo provides students with the chance of landing their dream internships. Major startups from all over India become a part of this motion by providing exciting internship offers to bright minds, allowing them to enrich themselves with real-world wisdom and knowledge."
+                    content="Start-up Internship Expo provides students with the chance of enriching themselves with industrial knowledge. Major startups from all over India become a part of this motion by providing exciting internship offers to bright minds."
                   />
                 </div>
               </li>

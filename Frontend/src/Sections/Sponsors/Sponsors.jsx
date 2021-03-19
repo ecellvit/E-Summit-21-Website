@@ -23,7 +23,7 @@ function Sponsors() {
 
   return (
     <div className="past-sponsors" id="sponsors">
-      <div className="sponsor-head">Past Sponsors</div>
+      <div className="sponsor-head"><span>Past Sponsors</span></div>
       <div className="grid-container">
         <div data-aos="flip-up" className="grid-item">
           <a href="https://www.coca-colaindia.com/">
