@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./EventCard.css";
 
 function EventCard(props) {
+  const [cls, setClass] = useState("expanded");
+
   return (
     <div className="list-item">
       {/* <div className="list-title">{props.listTitle}</div> */}
@@ -17,7 +19,17 @@ function EventCard(props) {
             <h1>{props.head}</h1>
             <div className="img"></div>
           </div>
-          <p>{props.content}</p>
+          <p className={cls}>
+            <span>{props.content.substr(0, 100)}</span>
+            <span className="readmore" onClick={() => setClass("expanded")}>
+              {" "}
+              ...Read More&gt;
+            </span>
+            <span className="extra">{props.content.substr(100)}</span>
+            {/* <span className="readless" onClick={() => setClass("")}>
+              &lt;Read Less
+            </span> */}
+          </p>
         </div>
       </div>
     </div>

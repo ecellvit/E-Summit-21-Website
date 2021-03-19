@@ -100,6 +100,11 @@
   right: 60px;
 }
 
+.readmore,
+.readless {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
   .list-wrapper {
     padding: 0px;
@@ -134,10 +139,26 @@
   .list-text {
     font-size: 4vw;
   }
+  .extra {
+    display: none;
+  }
+  .readmore, .readless {
+    font-size: 3.8vw;
+    font-weight: 600;
+  }
+  .readmore {
+    display: inline;
+  }
+  .expanded .extra, .expanded .readless {
+    display: inline;
+  }
+  .expanded .readmore {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .list-text {
-    font-size: 5vw;
+    font-size: 1rem;
   }
 }
