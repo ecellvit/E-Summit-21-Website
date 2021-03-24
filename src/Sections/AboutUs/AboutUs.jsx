@@ -63,7 +63,7 @@ function AboutUs() {
         </p>
         <br />
         <p data-aos="zoom-in" className="aboutus__aboutusinfo">
-          E-Summit 2021 is the 3rd edition of the biggest business fest in South
+          E-Summit 2021 is the 4th edition of the biggest business fest in South
           India. It is expected to have a massive turnout of participants, this
           providing a great platform for marketing and outreach.
         </p>
