@@ -25,7 +25,7 @@ function Event() {
                   {/* reg prop is either 'start' (Will start later) or 'end' (Ended) or '' (Ongoing) */}
                   <EventCard
                     head="Paradigm"
-                    link=""
+                    link="https://dare2compete.com/o/paradigm-vellore-institute-of-technology-vit-vellore-156100"
                     reg="start"
                     content="Change the way you approach problems by putting yourself in the shoes of eminent personalities. Envision brilliant ideas worthy of bringing an impactful change in the world."
                   />

@@ -26,7 +26,7 @@ function EventCard(props) {
             </button>
           ) : (
             <a href={props.link} target="_blank" rel="noreferrer">
-              <button className={`btn-events ${props.reg}`}>Register</button>
+              <button className={`btn-events`}>Register</button>
             </a>
           )}
         </div>
