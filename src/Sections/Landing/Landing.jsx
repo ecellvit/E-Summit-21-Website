@@ -65,7 +65,7 @@ function Landing() {
             <p className="top">E-Cell, VIT Presents</p>
             <h1>E-SUMMIT'21</h1>
             <p className="bottom">
-              The 3rd edition of the biggest business fest in South India
+              The 4th edition of the biggest business fest in South India
             </p>
             <div>
               <Link to="events">
