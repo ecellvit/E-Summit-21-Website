@@ -24,7 +24,7 @@
 }
 .list-text-inner {
   border-radius: 15px;
-  padding: 40px 40px 70px 40px;
+  padding: 40px 40px 80px 40px;
   background: linear-gradient(0deg, #012a4c 30%, rgba(2, 32, 56, 0.404) 100%);
 }
 
@@ -184,7 +184,7 @@
   font-size: 0.7rem;
   font-weight: 700;
   outline: none;
-  bottom: 12px;
+  bottom: 20px;
   right: 4vw;
 }
 

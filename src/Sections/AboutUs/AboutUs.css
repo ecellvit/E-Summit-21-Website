@@ -36,6 +36,12 @@
     #edb17b 0%,
     rgba(237, 177, 123, 0.9) 100%
   );
+  -webkit-border-image-slice: 1;
+  -webkit-border-image-source: linear-gradient(
+    180deg,
+    #edb17b 0%,
+    rgba(237, 177, 123, 0.9) 100%
+  );
   text-align: center;
 }
 

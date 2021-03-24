@@ -1,4 +1,4 @@
-import React, { useState , useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import LOGO from "../../Assets/logo.png";
 import Burger from "../../Components/Burger/Burger";
 import Menu from "../../Components/Menu/Menu";
@@ -7,9 +7,9 @@ import "./Landing.css";
 import Sidebar from "../../Components/Sidebar/Sidebar";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-scroll";
 
 function Landing() {
-
   useEffect(() => {
     Aos.init({ duration: "1000" });
   }, []);
@@ -67,9 +67,11 @@ function Landing() {
             <p className="bottom">
               The 3rd edition of the biggest business fest in South India
             </p>
-            {/* <div>
-              <button className="btn btn-primary">Register Now!</button>
-            </div> */}
+            <div>
+              <Link to="events">
+                <button className="btn btn-primary">View Events</button>
+              </Link>
+            </div>
           </div>
         </div>
         <div id="black-bg"></div>
