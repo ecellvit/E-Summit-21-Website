@@ -1,12 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./EventCard.css";
 
 function EventCard(props) {
-  const [cls, setClass] = useState("expanded");
-
   return (
     <div className="list-item">
-      {/* <div className="list-title">{props.listTitle}</div> */}
       <div
         className={`list-text ${
           props.head.indexOf(" ") !== -1
@@ -19,17 +16,19 @@ function EventCard(props) {
             <h1>{props.head}</h1>
             <div className="img"></div>
           </div>
-          <p className={cls}>
+          <p>
             <span>{props.content.substr(0, 100)}</span>
-            <span className="readmore" onClick={() => setClass("expanded")}>
-              {" "}
-              ...Read More&gt;
-            </span>
             <span className="extra">{props.content.substr(100)}</span>
-            {/* <span className="readless" onClick={() => setClass("")}>
-              &lt;Read Less
-            </span> */}
           </p>
+          {props.link === "" ? (
+            <button className={`btn-events ${props.reg}`}>
+              {props.reg === "start" ? "Coming soon" : "Seats Filled"}
+            </button>
+          ) : (
+            <a href={props.link} target="_blank" rel="noreferrer">
+              <button className={`btn-events ${props.reg}`}>Register</button>
+            </a>
+          )}
         </div>
       </div>
     </div>

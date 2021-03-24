@@ -56,3 +56,60 @@
     margin: 0% 5%;
   }
 }
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 60px auto 30px auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 40px 10px;
+  border-radius: 30px;
+  background-color: #edb17b;
+}
+.counters {
+  display: block;
+  text-align: center;
+  padding: 24px;
+  width: 22%;
+}
+
+.counters .count {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #012a4c;
+}
+
+.counters .spec {
+  font-size: 1.5rem;
+  color: #012a4c;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media (max-width: 991px) {
+  .d-flex {
+    padding: 20px 0;
+  }
+  .counters .spec {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .d-flex {
+    border-radius: 0;
+    padding: 10px 0;
+    margin: 30px auto;
+  }
+  .counters {
+    padding: 18px;
+    width: 48%;
+  }
+  .counters .count {
+    font-size: 1.5rem;
+  }
+  .counters .spec {
+    font-size: 1.2rem;
+  }
+}

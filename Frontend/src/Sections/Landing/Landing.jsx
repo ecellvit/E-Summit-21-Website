@@ -62,14 +62,14 @@ function Landing() {
             </div>
           </nav>
           <div className="content">
-            <p className="top">ECELL-VIT Presents</p>
+            <p className="top">E-Cell, VIT Presents</p>
             <h1>E-SUMMIT'21</h1>
             <p className="bottom">
               The 3rd edition of the biggest business fest in South India
             </p>
-            <div>
+            {/* <div>
               <button className="btn btn-primary">Register Now!</button>
-            </div>
+            </div> */}
           </div>
         </div>
         <div id="black-bg"></div>
