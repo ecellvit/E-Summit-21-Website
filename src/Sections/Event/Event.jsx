@@ -74,7 +74,7 @@ function Event() {
                 <div data-aos="flip-left">
                   <EventCard
                     head="Med-Tech Challenge"
-                    link=""
+                    link="https://dare2compete.com/o/med-tech-challenge-vellore-institute-of-technology-vit-vellore-156655"
                     reg="start"
                     content="Med-Tech challenge is a pitching competition that invites people to come up with ideas or prototypes capable of producing an impactful change in the medical sector. Visionary ideas with worthy pitches get incubation under VITTBI."
                   />
