@@ -26,7 +26,7 @@ function Event() {
                   <EventCard
                     head="Paradigm"
                     link="https://dare2compete.com/o/paradigm-vellore-institute-of-technology-vit-vellore-156100"
-                    reg="start"
+                    reg="end"
                     content="Change the way you approach problems by putting yourself in the shoes of eminent personalities. Envision brilliant ideas worthy of bringing an impactful change in the world."
                   />
                 </div>
@@ -36,7 +36,7 @@ function Event() {
                 <div data-aos="flip-left">
                   <EventCard
                     head="E-Talk"
-                    link=""
+                    link="https://dare2compete.com/o/2iWdVzc?refId=SXRkCzq"
                     reg="start"
                     content="Prominent speakers from the entrepreneurial world deliver a talk to promote the ethos of entrepreneurship in the campus. The session is open to the audience's questions, thus furnishing their minds with a clearer picture of entrepreneurship."
                   />
@@ -47,7 +47,7 @@ function Event() {
                 <div data-aos="flip-right">
                   <EventCard
                     head="VisionX"
-                    link=""
+                    link="https://dare2compete.com/o/95eUHFw?refId=SXRkCzq"
                     reg="start"
                     content="Startups are only half as innovative if they fail to understand the intricacies of their domain. To ensure that they realise their true potential, VisionX nurtures young minds to incorporate technical concepts in their business models."
                   />
@@ -63,7 +63,7 @@ function Event() {
                 <div data-aos="flip-right">
                   <EventCard
                     head="E-Hack"
-                    link=""
+                    link="https://ehack.ecellvit.com"
                     reg="start"
                     content="E-Hack is an overnight Hackathon that aims to find the leaders of tomorrow. Challenging participants to come up with effective solutions to real-world problems, this event is one comprehensive test of grit, resilience and innovation."
                   />
@@ -82,7 +82,7 @@ function Event() {
                 <div data-aos="flip-right">
                   <EventCard
                     head="Innoventure"
-                    link=""
+                    link="https://dare2compete.com/o/hsu3tZ8?refId=wSYoN41"
                     reg="start"
                     content="Innoventure is a business simulation that gives participants a platform to develop skills like product development and business analysis while inculcating knowledge about market trends and economic concepts that prevail in day-to-day applications."
                   />
