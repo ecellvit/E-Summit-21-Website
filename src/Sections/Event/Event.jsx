@@ -55,7 +55,7 @@ function Event() {
                 <div data-aos="flip-left">
                   <EventCard
                     head="Bootstrap"
-                    link=""
+                    link="https://dare2compete.com/o/uP08Dfx?refId=SXRkCzq"
                     reg="start"
                     content="The Business workshop of E-Summit brings with it the innate opportunity to discover the nuts and bolts of the startup world. Leveraging basic business concepts to a higher pedestal, this event inspires students to explore various business avenues."
                   />
