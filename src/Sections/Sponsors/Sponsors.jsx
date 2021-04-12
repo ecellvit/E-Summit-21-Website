@@ -27,6 +27,7 @@ import EL from "../../Assets/ELM.png";
 import SE from "../../Assets/StockEdge.png";
 import DZ from "../../Assets/Drinkzy.jpg";
 import LB from "../../Assets/LondonBubble3.png";
+import GMC from "../../Assets/GMC.png";
 
 import "./Sponsors.css";
 import Aos from "aos";
@@ -111,6 +112,11 @@ function Sponsors() {
         <div data-aos="flip-up" className="grid-item">
           <a href="https://londonbubbleco.com/">
             <img className="stockedgelogosm" src={LB} alt="Sponsor Logo" />
+          </a>
+        </div>
+        <div data-aos="flip-up" className="grid-item">
+          <a href="https://www.givemycertificate.com/">
+            <img src={GMC} alt="Sponsor Logo" />
           </a>
         </div>
         {/* <div data-aos="flip-up" className="grid-item">
