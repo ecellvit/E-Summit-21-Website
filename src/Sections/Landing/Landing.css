@@ -70,6 +70,30 @@
   color: #edb17b;
   transition: all 0.5s ease;
 }
+.btn2 {
+  padding: 0.8rem 3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid transparent;
+  outline: none;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.btn2-primary {
+  background: #7289da;
+  color: #fff;
+  border-radius: 26px;
+  margin-top: 10px;
+}
+
+.btn2-primary:hover {
+  background: transparent;
+  border-color: #7289da;
+  color: #7289da;
+  transition: all 0.5s ease;
+}
+
 
 .rightcode {
   display: none !important;
@@ -167,7 +191,7 @@ nav .righty a:hover:after {
   .content h1 {
     font-style: normal;
     font-weight: 800;
-    font-size: 4.6em;
+    font-size: 2.6em;
     line-height: 1.2em;
     color: #edb17b;
     margin-bottom: 0.3em;
@@ -196,7 +220,7 @@ nav .righty a:hover:after {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width:01px) and (max-width: 576px) {
   .content {
     font-size: 3vw;
     margin: 12vh 20vw auto 20px;
@@ -208,6 +232,9 @@ nav .righty a:hover:after {
     font-size: 1.2em;
   }
   .btn {
+    padding: 0.3rem 1.2rem;
+  }
+  .btn2 {
     padding: 0.3rem 1.2rem;
   }
   nav .righty {
@@ -225,36 +252,4 @@ nav .righty a:hover:after {
 
 
 /* DISCORD BUTTON */
-.btn2 {
-  padding: 0.3rem 1.2rem;
-}
-.btn2 {
-  padding: 0.8rem 3rem;
-  font-size: 1rem;
-  font-weight: 600;
-  border: 2px solid transparent;
-  outline: none;
-  transition: all 0.5s ease;
-  cursor: pointer;
-}
-.btn2-primary {
-  background: #edb17b;
-  color: #fff;
-  border-radius: 26px;
-  margin-top: 10px;
-}
 
-.btn2-primary:hover {
-  background: transparent;
-  border-color: #edb17b;
-  color: #edb17b;
-  transition: all 0.5s ease;
-}
-
-.discordlogo
-{
-  width:32px;
-  height:32px;
-  margin:0;
-  padding-top:30px;
-}

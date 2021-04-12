@@ -69,10 +69,11 @@ function Landing() {
               The 4th edition of the biggest business fest in South India
             </p>
             <div>
+            <a className="btn2 btn2-primary" href="https://discord.gg/mtaDWMDPwH"> Discord Channel</a>
+              <br></br><br></br>
               <Link to="events">
                 <button className="btn btn-primary">View Events</button>
               </Link>
-              {/* <a className="btn2 btn2-primary" href="www.google.com"><img className="discordlogo"src={DISCORD} alt="discord"></img>Discord</a> */}
             </div>
           </div>
         </div>
