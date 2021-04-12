@@ -28,6 +28,7 @@ import SE from "../../Assets/StockEdge.png";
 import DZ from "../../Assets/Drinkzy.jpg";
 import LB from "../../Assets/LondonBubble3.png";
 import GMC from "../../Assets/GMC.png";
+import NP from "../../Assets/NutriPanda.jpg";
 
 import "./Sponsors.css";
 import Aos from "aos";
@@ -86,7 +87,7 @@ function Sponsors() {
         </div>
         <div data-aos="flip-up" className="grid-item">
           <a href="https://learningwhiletravelling.com/">
-            <img src={LW} alt="Sponsor Logo" />
+            <img className="lwtlogosm" src={LW} alt="Sponsor Logo" />
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
@@ -117,6 +118,11 @@ function Sponsors() {
         <div data-aos="flip-up" className="grid-item">
           <a href="https://www.givemycertificate.com/">
             <img src={GMC} alt="Sponsor Logo" />
+          </a>
+        </div>
+        <div data-aos="flip-up" className="grid-item">
+          <a href="https://www.nutripanda.in/">
+            <img src={NP} alt="Sponsor Logo" />
           </a>
         </div>
         {/* <div data-aos="flip-up" className="grid-item">

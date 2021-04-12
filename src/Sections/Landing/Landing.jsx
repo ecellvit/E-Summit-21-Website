@@ -8,6 +8,7 @@ import Sidebar from "../../Components/Sidebar/Sidebar";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-scroll";
+import DISCORD from "../../Assets/discord.png";
 
 function Landing() {
   useEffect(() => {
@@ -71,6 +72,7 @@ function Landing() {
               <Link to="events">
                 <button className="btn btn-primary">View Events</button>
               </Link>
+              {/* <a className="btn2 btn2-primary" href="www.google.com"><img className="discordlogo"src={DISCORD} alt="discord"></img>Discord</a> */}
             </div>
           </div>
         </div>

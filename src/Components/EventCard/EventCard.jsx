@@ -26,7 +26,7 @@ function EventCard(props) {
             </button>
           ) : (
             <a href={props.link} target="_blank" rel="noreferrer">
-              <button className={`btn-events`}>{props.reg === "start" ? "Register" : "Registration Closed"}</button>
+              <button className={`btn-events pointerhover`}>{props.reg === "start" ? "Register" : "Registration Closed"}</button>
             </a>
           )}
         </div>
