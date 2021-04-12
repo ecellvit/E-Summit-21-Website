@@ -4,12 +4,25 @@
   font-size: 40px;
   font-weight: 700;
   color: #fff;
-  padding: 70px 10px;
+  padding: 50px 10px;
 }
 
 .past-sponsors .sponsor-head span {
   position: relative;
 }
+.awslogosm
+{
+  width:50%;
+}
+.stockedgelogosm
+{
+  width:30%;
+}
+.xinfinlogosm
+{
+  width:30%;
+}
+
 
 .grid-container a {
   text-align: center;
@@ -24,7 +37,7 @@
   display: flex;
   width: 25%;
   height: 200px;
-  padding: 20px;
+  padding:20px;
   justify-content: center;
   align-items: center;
 }
@@ -33,6 +46,16 @@
   max-width: 75%;
   max-height: 200px;
 }
+.grid-item a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  border-radius: 8px;
+  padding: 10px;
+  background: white;
+}
+
 
 @media screen and (max-width: 1200px) {
   .past-sponsors .grid-item {
