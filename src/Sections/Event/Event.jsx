@@ -63,7 +63,7 @@ function Event() {
                 <div data-aos="flip-right">
                   <EventCard
                     head="E-Hack"
-                    link="https://ehack.ecellvit.com"
+                    link="https://ehack.ecellvit.com/"
                     reg="start"
                     content="E-Hack is an overnight Hackathon that aims to find the leaders of tomorrow. Challenging participants to come up with effective solutions to real-world problems, this event is one comprehensive test of grit, resilience and innovation."
                   />

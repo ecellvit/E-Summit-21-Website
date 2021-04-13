@@ -8,7 +8,6 @@ import Sidebar from "../../Components/Sidebar/Sidebar";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-scroll";
-import DISCORD from "../../Assets/discord.png";
 
 function Landing() {
   useEffect(() => {
@@ -69,8 +68,9 @@ function Landing() {
               The 4th edition of the biggest business fest in South India
             </p>
             <div>
-            <a className="btn2 btn2-primary" href="https://discord.gg/mtaDWMDPwH"> Discord Channel</a>
-              <br></br><br></br>
+              <a href="https://discord.gg/mtaDWMDPwH">
+                <button className="btn btn2-primary">Discord Channel</button>
+              </a> {" "}
               <Link to="events">
                 <button className="btn btn-primary">View Events</button>
               </Link>
