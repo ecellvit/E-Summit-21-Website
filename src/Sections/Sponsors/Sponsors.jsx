@@ -16,6 +16,8 @@ import LB from "../../Assets/LondonBubble.png";
 import GMC from "../../Assets/GMC.png";
 import NP from "../../Assets/NutriPanda.jpg";
 import SR from "../../Assets/scripts.png";
+import IB from "../../Assets/investmentbuddy.png";
+import FP from "../../Assets/Fampay.PNG"
 
 import "./Sponsors.css";
 import Aos from "aos";
@@ -115,6 +117,17 @@ function Sponsors() {
         <div data-aos="flip-up" className="grid-item">
           <a href="https://www.scriptindia.org/">
             <img src={SR} alt="Sponsor Logo" />
+          </a>
+        </div>
+
+        <div data-aos="flip-up" className="grid-item">
+          <a href="https://theinvestingbuddy.com/start-investing/">
+            <img src={IB} alt="Sponsor Logo" />
+          </a>
+        </div>
+        <div data-aos="flip-up" className="grid-item">
+          <a href="https://fampay.in/">
+            <img src={FP} alt="Sponsor Logo" />
           </a>
         </div>
       </div>
