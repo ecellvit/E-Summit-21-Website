@@ -19,6 +19,7 @@ import SR from "../../Assets/scripts.png";
 import IB from "../../Assets/InterviewBuddy.png";
 import FP from "../../Assets/Fampay.PNG"
 import CF from "../../Assets/CFC.png";
+import VS from "../../Assets/vitspot.png";
 
 import "./Sponsors.css";
 import Aos from "aos";
@@ -167,6 +168,11 @@ function Sponsors() {
         <div data-aos="flip-up" className="grid-item">
           <a href="https://fampay.in/" target="_blank" rel="noreferrer">
             <img src={CF} alt="Sponsor Logo" />
+          </a>
+        </div>
+        <div data-aos="flip-up" className="grid-item">
+          <a href="https://vitspot.com/" target="_blank" rel="noreferrer">
+            <img src={VS} alt="VTISPOT LOGO" />
           </a>
         </div>
       </div>
