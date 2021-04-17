@@ -93,7 +93,7 @@ function Event() {
                 <div data-aos="flip-left">
                   <EventCard
                     head="Start-Up Internship Expo"
-                    link=""
+                    link="https://expo.ecellvit.com/"
                     reg="start"
                     content="Start-up Internship Expo provides students with the chance of enriching themselves with industrial knowledge. Major startups from all over India become a part of this motion by providing exciting internship offers to bright minds."
                   />
