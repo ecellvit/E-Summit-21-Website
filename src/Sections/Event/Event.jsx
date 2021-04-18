@@ -25,7 +25,7 @@ function Event() {
                   {/* reg prop is either 'start' (Will start later) or 'end' (Ended) or '' (Ongoing) */}
                   <EventCard
                     head="Paradigm"
-                    link="https://dare2compete.com/o/paradigm-vellore-institute-of-technology-vit-vellore-156100"
+                    link=""
                     reg="end"
                     content="Change the way you approach problems by putting yourself in the shoes of eminent personalities. Envision brilliant ideas worthy of bringing an impactful change in the world."
                   />
@@ -74,8 +74,8 @@ function Event() {
                 <div data-aos="flip-left">
                   <EventCard
                     head="Med-Tech Challenge"
-                    link="https://dare2compete.com/o/med-tech-challenge-vellore-institute-of-technology-vit-vellore-156655"
-                    reg="start"
+                    link=""
+                    reg="end"
                     content="Med-Tech challenge is a pitching competition that invites people to come up with ideas or prototypes capable of producing an impactful change in the medical sector. Visionary ideas with worthy pitches get incubation under VITTBI."
                   />
                 </div>
@@ -93,7 +93,7 @@ function Event() {
                 <div data-aos="flip-left">
                   <EventCard
                     head="Start-Up Internship Expo"
-                    link=""
+                    link="https://expo.ecellvit.com/"
                     reg="start"
                     content="Start-up Internship Expo provides students with the chance of enriching themselves with industrial knowledge. Major startups from all over India become a part of this motion by providing exciting internship offers to bright minds."
                   />

@@ -69,8 +69,8 @@ function Landing() {
             </p>
             <div>
               <a href="https://discord.gg/mtaDWMDPwH">
-                <button className="btn btn2-primary">Discord Channel</button>
-              </a> {" "}
+                <button className="btn btn2-primary">Join Our Discord</button>
+              </a>{" "}
               <Link to="events">
                 <button className="btn btn-primary">View Events</button>
               </Link>
