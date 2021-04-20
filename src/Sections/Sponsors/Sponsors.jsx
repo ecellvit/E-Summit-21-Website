@@ -20,6 +20,7 @@ import IB from "../../Assets/InterviewBuddy.png";
 import FP from "../../Assets/Fampay.PNG"
 import CF from "../../Assets/CFC.png";
 import VS from "../../Assets/vitspot.png";
+import XE from "../../Assets/100x.jpeg";
 
 import "./Sponsors.css";
 import Aos from "aos";
@@ -153,7 +154,7 @@ function Sponsors() {
 
         <div data-aos="flip-up" className="grid-item">
           <a
-            href="https://theinvestingbuddy.com/start-investing/"
+            href="https://interviewbuddy.in/"
             target="_blank"
             rel="noreferrer"
           >
@@ -166,13 +167,18 @@ function Sponsors() {
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
-          <a href="https://fampay.in/" target="_blank" rel="noreferrer">
+          <a href="https://codeforcause.org/" target="_blank" rel="noreferrer">
             <img src={CF} alt="Sponsor Logo" />
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
           <a href="https://vitspot.com/" target="_blank" rel="noreferrer">
             <img src={VS} alt="VTISPOT LOGO" />
+          </a>
+        </div>
+        <div data-aos="flip-up" className="grid-item">
+          <a href="https://100xentrepreneur.com/" target="_blank" rel="noreferrer">
+            <img src={XE} alt="100X entrepreneur LOGO" />
           </a>
         </div>
       </div>
