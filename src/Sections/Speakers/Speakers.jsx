@@ -2,12 +2,12 @@ import React, { useEffect } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "./Speakers.css";
-import ajit from "../../Assets/Ajit.jpg";
-import ukil from "../../Assets/ukil.jpg";
-import venky from "../../Assets/venky.jpg";
-import shashank from "../../Assets/shashank.jpg";
-import kumar from "../../Assets/kumar.jpg";
-import rahul from "../../Assets/rahul.jpg";
+import abhi from "../../Assets/abhi.jpg";
+import aman from "../../Assets/aman.jpg";
+import dk from "../../Assets/dk.jpeg";
+import neha from "../../Assets/neha.jpeg";
+import poonam from "../../Assets/poonam.jpg";
+import scott from "../../Assets/scott.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -18,7 +18,7 @@ function Speakers() {
   return (
     <div id="speakers">
       <div data-aos="flip-left" className="separator">
-        <span>Past Speakers</span>
+        <span>Speakers</span>
       </div>
       <div className="carousel">
         <Carousel
@@ -71,61 +71,61 @@ function Speakers() {
         >
           <div className="speaker-item">
             <div className="speaker-card">
-              <img src={ajit} alt="Speaker" />
+              <img src={abhi} alt="Speaker" />
               <div className="speaker-detail">
-                <div>Ajit Sivarkar</div>
-                <div>VP &amp; GM</div>
-                <div>Lenovo</div>
+                <div>Abhinav Aurora</div>
+                <div>Co-founder</div>
+                <div>Avalon Meta</div>
               </div>
             </div>
           </div>
           <div className="speaker-item">
             <div className="speaker-card">
-              <img src={ukil} alt="Speaker" />
+              <img src={aman} alt="Speaker" />
               <div className="speaker-detail">
-                <div>Raja Ukil</div>
-                <div>VP &amp; Global Head</div>
-                <div>Wipro</div>
+                <div>Aman Dhattarwal</div>
+                <div>Youtuber &amp; Founder</div>
+                <div>Apni Kaksha</div>
               </div>
             </div>
           </div>
           <div className="speaker-item">
             <div className="speaker-card">
-              <img src={venky} alt="Speaker" />
+              <img src={dk} alt="Speaker" />
               <div className="speaker-detail">
-                <div>Venkatesh Murthy</div>
-                <div>Founder &amp; CEO</div>
-                <div>Wharf Street Strategies</div>
+                <div>Deepak Pareek</div>
+                <div>Co-Founder</div>
+                <div>Career Keeda</div>
               </div>
             </div>
           </div>
           <div className="speaker-item">
             <div className="speaker-card">
-              <img src={shashank} alt="Speaker" />
+              <img src={neha} alt="Speaker" />
               <div className="speaker-detail">
-                <div>Shashank Vaishnav</div>
-                <div>Founder &amp; CTO</div>
-                <div>WittyFeed</div>
+                <div>Neha Sharma</div>
+                <div>Founder Secratory</div>
+                <div>Society of Data Science</div>
               </div>
             </div>
           </div>
           <div className="speaker-item">
             <div className="speaker-card">
-              <img src={kumar} alt="Speaker" />
+              <img src={poonam} alt="Speaker" />
               <div className="speaker-detail">
-                <div>Kumar Gaurav</div>
+                <div>Poonam Kaul</div>
+                <div>Film Producer</div>
+                <div>Ex-CMO Apple India | Ex-VP PepsiCo</div>
+              </div>
+            </div>
+          </div>
+          <div className="speaker-item">
+            <div className="speaker-card">
+              <img src={scott} alt="Speaker" />
+              <div className="speaker-detail">
+                <div>Scott D. Clary</div>
                 <div>Founder</div>
-                <div>Cashaa</div>
-              </div>
-            </div>
-          </div>
-          <div className="speaker-item">
-            <div className="speaker-card">
-              <img src={rahul} alt="Speaker" />
-              <div className="speaker-detail">
-                <div>Rahul Narvekar</div>
-                <div>Founder</div>
-                <div>The Indian Network</div>
+                <div>ROI Overload | The Success Story Podcast</div>
               </div>
             </div>
           </div>
