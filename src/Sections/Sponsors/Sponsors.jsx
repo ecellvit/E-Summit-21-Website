@@ -22,6 +22,9 @@ import CF from "../../Assets/CFC.png";
 import VS from "../../Assets/vitspot.png";
 import XE from "../../Assets/100x.jpeg";
 import YI from "../../Assets/youth.jpeg";
+import GO from "../../Assets/grabon.png";
+import EH from "../../Assets/egghead.png";
+import OT from "../../Assets/ontribe.png";
 
 import "./Sponsors.css";
 import Aos from "aos";
@@ -185,6 +188,21 @@ function Sponsors() {
         <div data-aos="flip-up" className="grid-item">
           <a href="https://youthincmag.com/" target="_blank" rel="noreferrer">
             <img src={YI} alt="100X entrepreneur LOGO" />
+          </a>
+        </div>
+        <div data-aos="flip-up" className="grid-item">
+          <a href="https://youthincmag.com/" target="_blank" rel="noreferrer">
+            <img src={GO} alt="100X entrepreneur LOGO" />
+          </a>
+        </div>
+        <div data-aos="flip-up" className="grid-item">
+          <a href="https://youthincmag.com/" target="_blank" rel="noreferrer">
+            <img src={EH} alt="100X entrepreneur LOGO" />
+          </a>
+        </div>
+        <div data-aos="flip-up" className="grid-item">
+          <a href="https://youthincmag.com/" target="_blank" rel="noreferrer">
+            <img src={OT} alt="100X entrepreneur LOGO" />
           </a>
         </div>
       </div>
