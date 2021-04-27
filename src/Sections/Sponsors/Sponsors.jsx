@@ -191,17 +191,17 @@ function Sponsors() {
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
-          <a href="https://youthincmag.com/" target="_blank" rel="noreferrer">
+          <a href="https://www.grabon.in/" target="_blank" rel="noreferrer">
             <img src={GO} alt="100X entrepreneur LOGO" />
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
-          <a href="https://youthincmag.com/" target="_blank" rel="noreferrer">
+          <a href="https://egghead.io/" target="_blank" rel="noreferrer">
             <img src={EH} alt="100X entrepreneur LOGO" />
           </a>
         </div>
         <div data-aos="flip-up" className="grid-item">
-          <a href="https://youthincmag.com/" target="_blank" rel="noreferrer">
+          <a href="https://ontribe.in/" target="_blank" rel="noreferrer">
             <img src={OT} alt="100X entrepreneur LOGO" />
           </a>
         </div>
